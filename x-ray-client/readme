@@ -1,0 +1,11 @@
+2.80 release.
+- Added jmx capabilities.  By default a number of jmx mbeans will show up including ones that track GC metrics: http://jamonapi.sourceforge.net/jmx_jamon.html
+- MonitorFactory now has the debug factory disabled by default.  
+
+<dependencies>
+ <dependency>
+   <groupId>com.jamonapi</groupId>
+   <artifactId>jamon</artifactId>
+   <version>2.80</version>
+ </dependency>
+</dependencies>
